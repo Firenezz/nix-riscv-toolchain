@@ -12,12 +12,12 @@ A flake containing the riscv gnu toolchain
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?shallow=1
-Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=eba384b2d5ac427f6ec823af14846b1ad8aa9a82&shallow=1
+Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=3bfacf3368d2320d98e4fecf0d3fc3b8499c1cac&shallow=1
 Description:   Flake to setup a riscv gnu toolchain
-Path:          /nix/store/mp7ls7ryy5c3z9cqszw89pzhkapv3j1w-source
-Revision:      eba384b2d5ac427f6ec823af14846b1ad8aa9a82
+Path:          /nix/store/q6lngi05gwxajdhh9685snxk7knb4968-source
+Revision:      3bfacf3368d2320d98e4fecf0d3fc3b8499c1cac
 Revisions:     1
-Last modified: 2024-05-10 17:38:20
+Last modified: 2024-05-10 17:57:49
 Inputs:
 ├───flake-parts: github:hercules-ci/flake-parts/e5d10a24b66c3ea8f150e47dfdb0416ab7c3390e (2024-05-02 09:10:30)
 │   └───nixpkgs-lib: https://github.com/NixOS/nixpkgs/archive/50eb7ecf4cd0a5756d7275c8ba36790e5bd53e33.tar.gz?narHash=sha256-QBx10%2Bk6JWz6u7VsohfSw8g8hjdBZEf8CFzXH1/1Z94%3D (2024-05-02 09:00:52)
@@ -31,25 +31,33 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=eba384b2d5ac427f6ec823af14846b1ad8aa9a82&shallow=1
+git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=3bfacf3368d2320d98e4fecf0d3fc3b8499c1cac&shallow=1
 ├───devShells
 │   ├───aarch64-darwin
-│   │   └───default: development environment 'nix-shell'
+│   │   ├───default: development environment 'nix-shell'
+│   │   └───gdb: development environment 'nix-shell'
 │   ├───aarch64-linux
-│   │   └───default: development environment 'nix-shell'
+│   │   ├───default: development environment 'nix-shell'
+│   │   └───gdb: development environment 'nix-shell'
 │   ├───x86_64-darwin
-│   │   └───default: development environment 'nix-shell'
+│   │   ├───default: development environment 'nix-shell'
+│   │   └───gdb: development environment 'nix-shell'
 │   └───x86_64-linux
-│       └───default: development environment 'nix-shell'
+│       ├───default: development environment 'nix-shell'
+│       └───gdb: development environment 'nix-shell'
 └───packages
     ├───aarch64-darwin
-    │   └───default: package 'riscv64-none-elf-gcc-wrapper-13.2.0'
+    │   ├───default: package 'riscv64-none-elf-gcc-wrapper-13.2.0'
+    │   └───gdb: package 'riscv64-none-elf-gdb-14.2'
     ├───aarch64-linux
-    │   └───default: package 'riscv64-none-elf-gcc-wrapper-13.2.0'
+    │   ├───default: package 'riscv64-none-elf-gcc-wrapper-13.2.0'
+    │   └───gdb: package 'riscv64-none-elf-gdb-14.2'
     ├───x86_64-darwin
-    │   └───default: package 'riscv64-none-elf-gcc-wrapper-13.2.0'
+    │   ├───default: package 'riscv64-none-elf-gcc-wrapper-13.2.0'
+    │   └───gdb: package 'riscv64-none-elf-gdb-14.2'
     └───x86_64-linux
-        └───default: package 'riscv64-none-elf-gcc-wrapper-13.2.0'
+        ├───default: package 'riscv64-none-elf-gcc-wrapper-13.2.0'
+        └───gdb: package 'riscv64-none-elf-gdb-14.2'
 
 ```
 
