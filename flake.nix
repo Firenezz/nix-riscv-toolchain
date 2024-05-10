@@ -3,23 +3,38 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
-    systems.url = "github:nix-systems/default";
+    systems-default.url = "github:nix-systems/default";
     flake-utils.url = "github:numtide/flake-utils";
     flake-parts.url = "github:hercules-ci/flake-parts";
   };
 
-  outputs = { self, nixpkgs, systems, flake-utils, flake-parts, ... }:
-    let
-      eachSystem = nixpkgs.lib.genAttrs (import systems);
-    in {
-      packages = eachSystem (system: {
-        system = import nixpkgs {            
-          localSystem = system;
+  outputs = { self, nixpkgs, systems-default, flake-utils, flake-parts, ... } @ inputs:
+    flake-parts.lib.mkFlake {inherit inputs;} {
+      systems = import systems-default;
+
+      perSystem = {
+        pkgs,
+        system,
+        ...
+      }: let
+        riscv-toolchain-pkgs = import nixpkgs {            
+          localSystem = "${system}";
           crossSystem = {
             config = "riscv64-none-elf";
-            #config = "riscv64-unknown-linux-gnu";
           };
         };
-      });
+      in {
+        packages = {
+          default = riscv-toolchain-pkgs.buildPackages.gcc;
+        };
+
+        devShells = {
+          default = pkgs.mkShell {
+            buildInputs = [
+              riscv-toolchain-pkgs.buildPackages.gcc
+            ];
+          };
+        };
+      };
     };
 }

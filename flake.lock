@@ -69,7 +69,7 @@
         "flake-parts": "flake-parts",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs",
-        "systems": "systems_2"
+        "systems-default": "systems-default"
       }
     },
     "systems": {
@@ -87,7 +87,7 @@
         "type": "github"
       }
     },
-    "systems_2": {
+    "systems-default": {
       "locked": {
         "lastModified": 1681028828,
         "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
