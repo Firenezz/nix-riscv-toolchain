@@ -1,4 +1,8 @@
+## Eriixpkgs
 
+[![Flake Check](https://github.com/erictossell/eriixpkgs/actions/workflows/check.yml/badge.svg)](https://github.com/erictossell/eriixpkgs/actions/workflows/check.yml)
+
+A flake containing the riscv gnu toolchain
 ### Directory Structure
 
 
@@ -7,12 +11,12 @@
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?shallow=1
-Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=1de4f3d248e44b6f944746aef37df01ee8406b01&shallow=1
+Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=190f61a83e983f82036c9e971aebadf98ec7fdc2&shallow=1
 Description:   Flake to setup a riscv gnu toolchain
-Path:          /nix/store/k63q3scmjg2x3nisadysqry4s17mmp4y-source
-Revision:      1de4f3d248e44b6f944746aef37df01ee8406b01
+Path:          /nix/store/jqda9syd7a6jlbdlzpc6nc71a8crziz4-source
+Revision:      190f61a83e983f82036c9e971aebadf98ec7fdc2
 Revisions:     1
-Last modified: 2024-05-10 16:54:08
+Last modified: 2024-05-10 17:16:34
 Inputs:
 ├───flake-parts: github:hercules-ci/flake-parts/e5d10a24b66c3ea8f150e47dfdb0416ab7c3390e (2024-05-02 09:10:30)
 │   └───nixpkgs-lib: https://github.com/NixOS/nixpkgs/archive/50eb7ecf4cd0a5756d7275c8ba36790e5bd53e33.tar.gz?narHash=sha256-QBx10%2Bk6JWz6u7VsohfSw8g8hjdBZEf8CFzXH1/1Z94%3D (2024-05-02 09:00:52)
@@ -26,7 +30,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=1de4f3d248e44b6f944746aef37df01ee8406b01&shallow=1
+git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=190f61a83e983f82036c9e971aebadf98ec7fdc2&shallow=1
 ├───devShells
 │   ├───aarch64-darwin
 │   │   └───default: development environment 'nix-shell'
@@ -50,4 +54,4 @@ git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/he
 
 ---
 
-👤 [**erictossell**](https://github.com/erictossell)
+👤 [**Firenezz**](https://github.com/Firenezz)
