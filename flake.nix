@@ -32,6 +32,7 @@
           default = pkgs.mkShell {
             buildInputs = [
               riscv-toolchain-pkgs.buildPackages.gcc
+              riscv-toolchain-pkgs.buildPackages.gdb
             ];
           };
         };
