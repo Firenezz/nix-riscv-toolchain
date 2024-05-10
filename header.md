@@ -1,5 +1,6 @@
-## Eriixpkgs
+## nix-riscv-toolchain
 
-[![Flake Check](https://github.com/erictossell/eriixpkgs/actions/workflows/check.yml/badge.svg)](https://github.com/erictossell/eriixpkgs/actions/workflows/check.yml)
+[![Flake Update](https://github.com/Firenezz/nix-riscv-toolchain/blob/main/.github/workflows/flake-update.yml/badge.svg)](https://github.com/Firenezz/nix-riscv-toolchain/blob/main/.github/workflows/flake-update.yml)
+[![Flake Check](https://github.com/Firenezz/nix-riscv-toolchain/blob/main/.github/workflows/flake-check.yml/badge.svg)](https://github.com/Firenezz/nix-riscv-toolchain/blob/main/.github/workflows/flake-check.yml)
 
 A flake containing the riscv gnu toolchain
