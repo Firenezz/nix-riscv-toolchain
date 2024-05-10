@@ -26,6 +26,7 @@
       in {
         packages = {
           default = riscv-toolchain-pkgs.buildPackages.gcc;
+          gdb = riscv-toolchain-pkgs.buildPackages.gdb;
         };
 
         devShells = {
