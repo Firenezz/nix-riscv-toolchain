@@ -22,7 +22,7 @@ jobs:
         nix_path: nixpkgs=channel:nixos-unstable
 
     - name: Flake Info Markdown
-      run: nix run github:erictossell/readme-py -- -a erictossell -d -l -fs -fi -hmd header.md -o FLAKE-INFO.md
+      run: nix run github:erictossell/readme-py -- -a Firenezz -d -l -fs -fi -hmd header.md -o FLAKE-INFO.md
 
     - name: Commit and push
       uses: stefanzweifel/git-auto-commit-action@v5
