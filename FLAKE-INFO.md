@@ -12,12 +12,12 @@ A flake containing the riscv gnu toolchain
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?shallow=1
-Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=3bfacf3368d2320d98e4fecf0d3fc3b8499c1cac&shallow=1
+Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=f90d4e97dd8fcce6c1a21ab74e0a582349a4824f&shallow=1
 Description:   Flake to setup a riscv gnu toolchain
-Path:          /nix/store/q6lngi05gwxajdhh9685snxk7knb4968-source
-Revision:      3bfacf3368d2320d98e4fecf0d3fc3b8499c1cac
+Path:          /nix/store/alb552lnvbckr650m0fh4ir5ivl1ydsm-source
+Revision:      f90d4e97dd8fcce6c1a21ab74e0a582349a4824f
 Revisions:     1
-Last modified: 2024-05-10 17:57:49
+Last modified: 2024-05-10 17:59:51
 Inputs:
 ├───flake-parts: github:hercules-ci/flake-parts/e5d10a24b66c3ea8f150e47dfdb0416ab7c3390e (2024-05-02 09:10:30)
 │   └───nixpkgs-lib: https://github.com/NixOS/nixpkgs/archive/50eb7ecf4cd0a5756d7275c8ba36790e5bd53e33.tar.gz?narHash=sha256-QBx10%2Bk6JWz6u7VsohfSw8g8hjdBZEf8CFzXH1/1Z94%3D (2024-05-02 09:00:52)
@@ -31,7 +31,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=3bfacf3368d2320d98e4fecf0d3fc3b8499c1cac&shallow=1
+git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=f90d4e97dd8fcce6c1a21ab74e0a582349a4824f&shallow=1
 ├───devShells
 │   ├───aarch64-darwin
 │   │   ├───default: development environment 'nix-shell'
