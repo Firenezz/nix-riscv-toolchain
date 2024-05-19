@@ -12,18 +12,18 @@ A flake containing the riscv gnu toolchain
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?shallow=1
-Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=f90d4e97dd8fcce6c1a21ab74e0a582349a4824f&shallow=1
+Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=c5e94340ed82ad3c82446a3554f6e2999c000b7c&shallow=1
 Description:   Flake to setup a riscv gnu toolchain
-Path:          /nix/store/alb552lnvbckr650m0fh4ir5ivl1ydsm-source
-Revision:      f90d4e97dd8fcce6c1a21ab74e0a582349a4824f
+Path:          /nix/store/43552akx6fxwd7qldqinydbhmyjmwxxh-source
+Revision:      c5e94340ed82ad3c82446a3554f6e2999c000b7c
 Revisions:     1
-Last modified: 2024-05-10 17:59:51
+Last modified: 2024-05-19 00:32:51
 Inputs:
-├───flake-parts: github:hercules-ci/flake-parts/e5d10a24b66c3ea8f150e47dfdb0416ab7c3390e (2024-05-02 09:10:30)
+├───flake-parts: github:hercules-ci/flake-parts/8dc45382d5206bd292f9c2768b8058a8fd8311d9 (2024-05-16 13:16:44)
 │   └───nixpkgs-lib: https://github.com/NixOS/nixpkgs/archive/50eb7ecf4cd0a5756d7275c8ba36790e5bd53e33.tar.gz?narHash=sha256-QBx10%2Bk6JWz6u7VsohfSw8g8hjdBZEf8CFzXH1/1Z94%3D (2024-05-02 09:00:52)
 ├───flake-utils: github:numtide/flake-utils/b1d9ab70662946ef0850d488da1c9019f3a9752a (2024-03-11 08:33:50)
 │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
-├───nixpkgs: github:nixos/nixpkgs/f1010e0469db743d14519a1efd37e23f8513d714 (2024-05-09 14:52:38)
+├───nixpkgs: github:nixos/nixpkgs/4a6b83b05df1a8bd7d99095ec4b4d271f2956b64 (2024-05-17 15:59:16)
 └───systems-default: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
 
 ```
@@ -31,7 +31,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=f90d4e97dd8fcce6c1a21ab74e0a582349a4824f&shallow=1
+git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=c5e94340ed82ad3c82446a3554f6e2999c000b7c&shallow=1
 ├───devShells
 │   ├───aarch64-darwin
 │   │   ├───default: development environment 'nix-shell'
