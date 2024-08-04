@@ -12,18 +12,18 @@ A flake containing the riscv gnu toolchain
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?shallow=1
-Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=5548e20f9aa2a3168ef4b17889f545f5282d6b47&shallow=1
+Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=76d5928cc5a4d4daf6f1dfed3a886160242e2ba8&shallow=1
 Description:   Flake to setup a riscv gnu toolchain
-Path:          /nix/store/8iyi9xhfscq23cjp8b5bjbqh78893l7y-source
-Revision:      5548e20f9aa2a3168ef4b17889f545f5282d6b47
+Path:          /nix/store/nplcsil9vlb8dl8y7cw97sh2a23l55w5-source
+Revision:      76d5928cc5a4d4daf6f1dfed3a886160242e2ba8
 Revisions:     1
-Last modified: 2024-07-28 00:36:42
+Last modified: 2024-08-04 00:36:20
 Inputs:
-├───flake-parts: github:hercules-ci/flake-parts/9227223f6d922fee3c7b190b2cc238a99527bbb7 (2024-07-03 08:15:18)
-│   └───nixpkgs-lib: https://github.com/NixOS/nixpkgs/archive/5daf0514482af3f97abaefc78a6606365c9108e2.tar.gz?narHash=sha256-Fm2rDDs86sHy0/1jxTOKB1118Q0O3Uc7EC0iXvXKpbI%3D (2024-07-01 23:35:45)
+├───flake-parts: github:hercules-ci/flake-parts/8471fe90ad337a8074e957b69ca4d0089218391d (2024-08-01 23:40:00)
+│   └───nixpkgs-lib: https://github.com/NixOS/nixpkgs/archive/a5d394176e64ab29c852d03346c1fc9b0b7d33eb.tar.gz?narHash=sha256-uFf2QeW7eAHlYXuDktm9c25OxOyCoUOQmh5SZ9amE5Q%3D (2024-08-01 23:35:39)
 ├───flake-utils: github:numtide/flake-utils/b1d9ab70662946ef0850d488da1c9019f3a9752a (2024-03-11 08:33:50)
 │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
-├───nixpkgs: github:nixos/nixpkgs/b73c2221a46c13557b1b3be9c2070cc42cf01eb3 (2024-07-27 06:49:29)
+├───nixpkgs: github:nixos/nixpkgs/9f918d616c5321ad374ae6cb5ea89c9e04bf3e58 (2024-07-31 10:19:44)
 └───systems-default: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
 
 ```
@@ -31,7 +31,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=5548e20f9aa2a3168ef4b17889f545f5282d6b47&shallow=1
+git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=76d5928cc5a4d4daf6f1dfed3a886160242e2ba8&shallow=1
 ├───devShells
 │   ├───aarch64-darwin
 │   │   ├───default: development environment 'nix-shell'
@@ -48,16 +48,16 @@ git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/he
 └───packages
     ├───aarch64-darwin
     │   ├───default: package 'riscv64-none-elf-gcc-wrapper-13.3.0'
-    │   └───gdb: package 'riscv64-none-elf-gdb-14.2'
+    │   └───gdb: package 'riscv64-none-elf-gdb-15.1'
     ├───aarch64-linux
     │   ├───default: package 'riscv64-none-elf-gcc-wrapper-13.3.0'
-    │   └───gdb: package 'riscv64-none-elf-gdb-14.2'
+    │   └───gdb: package 'riscv64-none-elf-gdb-15.1'
     ├───x86_64-darwin
     │   ├───default: package 'riscv64-none-elf-gcc-wrapper-13.3.0'
-    │   └───gdb: package 'riscv64-none-elf-gdb-14.2'
+    │   └───gdb: package 'riscv64-none-elf-gdb-15.1'
     └───x86_64-linux
         ├───default: package 'riscv64-none-elf-gcc-wrapper-13.3.0'
-        └───gdb: package 'riscv64-none-elf-gdb-14.2'
+        └───gdb: package 'riscv64-none-elf-gdb-15.1'
 
 ```
 
