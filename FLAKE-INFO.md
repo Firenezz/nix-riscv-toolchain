@@ -12,18 +12,18 @@ A flake containing the riscv gnu toolchain
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?shallow=1
-Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=c63ae2555557cc8a18db41af5c9d2c7313e405fe&shallow=1
+Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=e12081f7688cb94100b7b98f04b7781c69550c76&shallow=1
 Description:   Flake to setup a riscv gnu toolchain
-Path:          /nix/store/lm080ga3ddnmmbl03h5q7rpxbb7p2617-source
-Revision:      c63ae2555557cc8a18db41af5c9d2c7313e405fe
+Path:          /nix/store/32m2k5c7hdn0p7y4r604w7bd2jsyxpih-source
+Revision:      e12081f7688cb94100b7b98f04b7781c69550c76
 Revisions:     1
-Last modified: 2025-03-16 00:43:59
+Last modified: 2025-03-23 00:44:25
 Inputs:
 ├───flake-parts: github:hercules-ci/flake-parts/f4330d22f1c5d2ba72d3d22df5597d123fdb60a9 (2025-03-07 13:09:40)
 │   └───nixpkgs-lib: github:nix-community/nixpkgs.lib/147dee35aab2193b174e4c0868bd80ead5ce755c (2025-03-02 01:05:20)
 ├───flake-utils: github:numtide/flake-utils/11707dc2f618dd54ca8739b309ec4fc024de578b (2024-11-13 21:27:16)
 │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
-├───nixpkgs: github:nixos/nixpkgs/6607cf789e541e7873d40d3a8f7815ea92204f32 (2025-03-13 07:39:42)
+├───nixpkgs: github:nixos/nixpkgs/a84ebe20c6bc2ecbcfb000a50776219f48d134cc (2025-03-19 22:12:44)
 └───systems-default: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
 
 ```
@@ -31,7 +31,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=c63ae2555557cc8a18db41af5c9d2c7313e405fe&shallow=1
+git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=e12081f7688cb94100b7b98f04b7781c69550c76&shallow=1
 ├───devShells
 │   ├───aarch64-darwin
 │   │   ├───default: development environment 'nix-shell'
