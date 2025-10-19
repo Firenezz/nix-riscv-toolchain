@@ -12,18 +12,18 @@ A flake containing the riscv gnu toolchain
 
 ```nix
 Resolved URL:  git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?shallow=1
-Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=db5fab63980d46d66a0b46d3e7e35bf496bb2705&shallow=1
+Locked URL:    git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=cb52fbb5fb1706d5208071b5111d8803533b08a1&shallow=1
 Description:   Flake to setup a riscv gnu toolchain
-Path:          /nix/store/k0qsdc7fxfdfwjzm7si1l6321z00s88x-source
-Revision:      db5fab63980d46d66a0b46d3e7e35bf496bb2705
+Path:          /nix/store/bzipqwvvqwsl0v2xzh2ifzlcpniq1x5j-source
+Revision:      cb52fbb5fb1706d5208071b5111d8803533b08a1
 Revisions:     1
-Last modified: 2025-10-12 00:43:59
+Last modified: 2025-10-19 00:48:05
 Inputs:
-├───flake-parts: github:hercules-ci/flake-parts/758cf7296bee11f1706a574c77d072b8a7baa881 (2025-10-01 23:44:24)
+├───flake-parts: github:hercules-ci/flake-parts/4e627ac2e1b8f1de7f5090064242de9a259dbbc8 (2025-10-18 18:48:31)
 │   └───nixpkgs-lib: github:nix-community/nixpkgs.lib/a73b9c743612e4244d865a2fdee11865283c04e6 (2025-08-10 01:19:49)
 ├───flake-utils: github:numtide/flake-utils/11707dc2f618dd54ca8739b309ec4fc024de578b (2024-11-13 21:27:16)
 │   └───systems: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
-├───nixpkgs: github:nixos/nixpkgs/0b4defa2584313f3b781240b29d61f6f9f7e0df3 (2025-10-09 19:42:10)
+├───nixpkgs: github:nixos/nixpkgs/544961dfcce86422ba200ed9a0b00dd4b1486ec5 (2025-10-15 10:27:37)
 └───systems-default: github:nix-systems/default/da67096a3b9bf56a91d16901293e51ba5b49a27e (2023-04-09 08:27:08)
 
 ```
@@ -31,7 +31,7 @@ Inputs:
 ### Flake Outputs
 
 ```nix
-git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=db5fab63980d46d66a0b46d3e7e35bf496bb2705&shallow=1
+git+file:///home/runner/work/nix-riscv-toolchain/nix-riscv-toolchain?ref=refs/heads/main&rev=cb52fbb5fb1706d5208071b5111d8803533b08a1&shallow=1
 ├───devShells
 │   ├───aarch64-darwin
 │   │   ├───default: development environment 'nix-shell'
